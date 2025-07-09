@@ -69,6 +69,8 @@ function App() {
           >
             JUPURR
           </motion.h1>
+
+
           
           <motion.p 
             className="text-2xl md:text-3xl mb-8 text-orange-200 font-medium"
@@ -103,6 +105,8 @@ function App() {
           >
             THE ORIGIN OF JUPURR 😺💨
           </motion.h2>
+
+
           
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <motion.div variants={fadeInUp}>
@@ -159,9 +163,11 @@ function App() {
             <img 
               src={jupurrWormhole} 
               alt="Jupurr emerging from wormhole" 
-              className="rounded-lg shadow-2xl mx-auto max-w-2xl w-full hover:scale-105 transition-transform duration-300"
+              className="rounded-lg shadow-2xl w-full max-w-3xl mx-auto hover:scale-105 transition-transform duration-300 mb-12"
             />
           </motion.div>
+
+
         </div>
       </motion.section>
 
@@ -218,6 +224,23 @@ function App() {
               </div>
             </motion.div>
           </div>
+
+          {/* Jupurr Cat Images - Under Bio Section */}
+          <motion.div
+            className="flex flex-col md:flex-row gap-10 justify-center items-center mb-20"
+            variants={fadeInUp}
+          >
+            <img
+              src="/im2.jpeg"
+              alt="Jupurr Cat Hologram Surprised"
+              className="w-full max-w-3xl object-contain rounded-2xl shadow-2xl bg-black/30"
+            />
+            <img
+              src="/im3.jpeg"
+              alt="Jupurr Cat Hologram Happy"
+              className="w-full max-w-3xl object-contain rounded-2xl shadow-2xl bg-black/30"
+            />
+          </motion.div>
         </div>
       </motion.section>
 
